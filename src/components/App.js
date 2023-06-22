@@ -1,13 +1,12 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
+import Test from "./Test";
 
 const App = () => {
   return (
-    // <div id="main">
-      <div id="root">
-        <p>I am learning React. my life is getting better.</p>
-      </div>
-    // </div>
+    <div id="main">
+      <Test/>
+    </div>
   )
 }
 
